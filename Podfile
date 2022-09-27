@@ -8,4 +8,7 @@ target 'Movies' do
   # Pods for Movies
 
    pod 'Alamofire', '~> 4.0'
+   pod 'SwiftyJSON', '~> 4.0'
+   pod 'SDWebImage', '~> 5.0'
+   pod 'Toaster'
 end

@@ -8,25 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		600474BAFF9DC048FB418732 /* Pods_Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C923F7A84F24768106195CE /* Pods_Movies.framework */; };
+		BA10EED928E3671F001EE523 /* Toaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EED828E3671F001EE523 /* Toaster.swift */; };
+		BA10EEDE28E36782001EE523 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEDD28E36782001EE523 /* ApiClient.swift */; };
+		BA10EEE028E3679E001EE523 /* HttpNetworkRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEDF28E3679E001EE523 /* HttpNetworkRoute.swift */; };
+		BA10EEE328E367D4001EE523 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEE228E367D4001EE523 /* BaseModel.swift */; };
+		BA10EEE528E367F0001EE523 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEE428E367F0001EE523 /* Resource.swift */; };
+		BA10EEE728E36807001EE523 /* MovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEE628E36807001EE523 /* MovieListModel.swift */; };
+		BA10EEEA28E36883001EE523 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEE928E36883001EE523 /* UIViewController + Ext.swift */; };
+		BA10EEEC28E36896001EE523 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEEB28E36896001EE523 /* UIView + Ext.swift */; };
+		BA10EEEE28E368C2001EE523 /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEED28E368C2001EE523 /* UserDefaults+Ext.swift */; };
+		BA10EEF028E368F5001EE523 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEEF28E368F5001EE523 /* MoviesListViewController.swift */; };
+		BA10EEF228E36908001EE523 /* MoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEF128E36908001EE523 /* MoviesDetailsViewController.swift */; };
+		BA10EEF528E3694E001EE523 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEF428E3694E001EE523 /* MoviesViewModel.swift */; };
+		BA10EEF828E369F3001EE523 /* MoviesListTvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10EEF728E369F3001EE523 /* MoviesListTvc.swift */; };
 		BA4292F828E297C90045F44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4292F728E297C90045F44B /* AppDelegate.swift */; };
 		BA4292FA28E297C90045F44B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4292F928E297C90045F44B /* SceneDelegate.swift */; };
-		BA4292FC28E297C90045F44B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4292FB28E297C90045F44B /* ViewController.swift */; };
 		BA4292FF28E297C90045F44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4292FD28E297C90045F44B /* Main.storyboard */; };
 		BA42930128E297CD0045F44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA42930028E297CD0045F44B /* Assets.xcassets */; };
 		BA42930428E297CD0045F44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA42930228E297CD0045F44B /* LaunchScreen.storyboard */; };
+		BA92893B28E370C50007ACE4 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92893A28E370C50007ACE4 /* AppStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D7314AF167587CADE3682FF /* Pods-Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies.debug.xcconfig"; path = "Target Support Files/Pods-Movies/Pods-Movies.debug.xcconfig"; sourceTree = "<group>"; };
 		7C923F7A84F24768106195CE /* Pods_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA10EED828E3671F001EE523 /* Toaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
+		BA10EEDD28E36782001EE523 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		BA10EEDF28E3679E001EE523 /* HttpNetworkRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpNetworkRoute.swift; sourceTree = "<group>"; };
+		BA10EEE228E367D4001EE523 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		BA10EEE428E367F0001EE523 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		BA10EEE628E36807001EE523 /* MovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListModel.swift; sourceTree = "<group>"; };
+		BA10EEE928E36883001EE523 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
+		BA10EEEB28E36896001EE523 /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		BA10EEED28E368C2001EE523 /* UserDefaults+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Ext.swift"; sourceTree = "<group>"; };
+		BA10EEEF28E368F5001EE523 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
+		BA10EEF128E36908001EE523 /* MoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsViewController.swift; sourceTree = "<group>"; };
+		BA10EEF428E3694E001EE523 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		BA10EEF728E369F3001EE523 /* MoviesListTvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListTvc.swift; sourceTree = "<group>"; };
 		BA4292F428E297C90045F44B /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4292F728E297C90045F44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA4292F928E297C90045F44B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA4292FB28E297C90045F44B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA4292FE28E297C90045F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA42930028E297CD0045F44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA42930328E297CD0045F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA42930528E297CD0045F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA92893A28E370C50007ACE4 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		C147E1524CD4E2026257AB7A /* Pods-Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies.release.xcconfig"; path = "Target Support Files/Pods-Movies/Pods-Movies.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +85,76 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA10EED728E3670A001EE523 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EED828E3671F001EE523 /* Toaster.swift */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		BA10EEDA28E36740001EE523 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEDC28E3675E001EE523 /* Services */,
+				BA10EEDB28E36754001EE523 /* Https */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BA10EEDB28E36754001EE523 /* Https */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEDF28E3679E001EE523 /* HttpNetworkRoute.swift */,
+			);
+			path = Https;
+			sourceTree = "<group>";
+		};
+		BA10EEDC28E3675E001EE523 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEDD28E36782001EE523 /* ApiClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA10EEE128E367C1001EE523 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEE228E367D4001EE523 /* BaseModel.swift */,
+				BA10EEE428E367F0001EE523 /* Resource.swift */,
+				BA10EEE628E36807001EE523 /* MovieListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA10EEE828E36862001EE523 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEE928E36883001EE523 /* UIViewController + Ext.swift */,
+				BA10EEEB28E36896001EE523 /* UIView + Ext.swift */,
+				BA10EEED28E368C2001EE523 /* UserDefaults+Ext.swift */,
+				BA92893A28E370C50007ACE4 /* AppStoryboard.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA10EEF328E36939001EE523 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEF428E3694E001EE523 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA10EEF628E369E4001EE523 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA10EEF728E369F3001EE523 /* MoviesListTvc.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		BA4292EB28E297C90045F44B = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +176,14 @@
 		BA4292F628E297C90045F44B /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				BA10EEF628E369E4001EE523 /* Cells */,
+				BA10EED728E3670A001EE523 /* Toaster */,
+				BA10EEDA28E36740001EE523 /* Networking */,
+				BA10EEE128E367C1001EE523 /* Model */,
+				BA10EEF328E36939001EE523 /* ViewModel */,
 				BA42930C28E298620045F44B /* ViewController */,
 				BA42930B28E298450045F44B /* Helper */,
+				BA10EEE828E36862001EE523 /* Extension */,
 				BA42930D28E2986D0045F44B /* StoryBoard */,
 				BA42930E28E298830045F44B /* Resources */,
 			);
@@ -100,7 +202,8 @@
 		BA42930C28E298620045F44B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BA4292FB28E297C90045F44B /* ViewController.swift */,
+				BA10EEEF28E368F5001EE523 /* MoviesListViewController.swift */,
+				BA10EEF128E36908001EE523 /* MoviesDetailsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -238,9 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4292FC28E297C90045F44B /* ViewController.swift in Sources */,
+				BA10EEE728E36807001EE523 /* MovieListModel.swift in Sources */,
+				BA10EEE528E367F0001EE523 /* Resource.swift in Sources */,
+				BA10EEEC28E36896001EE523 /* UIView + Ext.swift in Sources */,
 				BA4292F828E297C90045F44B /* AppDelegate.swift in Sources */,
+				BA10EEE328E367D4001EE523 /* BaseModel.swift in Sources */,
+				BA10EEF228E36908001EE523 /* MoviesDetailsViewController.swift in Sources */,
+				BA10EEE028E3679E001EE523 /* HttpNetworkRoute.swift in Sources */,
+				BA10EED928E3671F001EE523 /* Toaster.swift in Sources */,
+				BA92893B28E370C50007ACE4 /* AppStoryboard.swift in Sources */,
+				BA10EEEE28E368C2001EE523 /* UserDefaults+Ext.swift in Sources */,
 				BA4292FA28E297C90045F44B /* SceneDelegate.swift in Sources */,
+				BA10EEF828E369F3001EE523 /* MoviesListTvc.swift in Sources */,
+				BA10EEF028E368F5001EE523 /* MoviesListViewController.swift in Sources */,
+				BA10EEF528E3694E001EE523 /* MoviesViewModel.swift in Sources */,
+				BA10EEEA28E36883001EE523 /* UIViewController + Ext.swift in Sources */,
+				BA10EEDE28E36782001EE523 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +505,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Movies/Info.plist;
+				INFOPLIST_FILE = "/Users/muthuraja/Documents/Barath/Assesment Task/movies github/movies/Movies/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,12 +534,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Movies/Info.plist;
+				INFOPLIST_FILE = "/Users/muthuraja/Documents/Barath/Assesment Task/movies github/movies/Movies/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
